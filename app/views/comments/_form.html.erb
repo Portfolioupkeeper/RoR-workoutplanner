@@ -1,0 +1,14 @@
+<%= form_for([@article, @article.comments.build]) do |f| %>
+  <p>
+    <%= f.label :vaihe %><br>
+    <%= f.text_area :vaihe %>
+  </p>
+  <p>
+	Lisää kuva:<br>
+	<% file_field_tag "ebin" %>
+	<%= f.file_field :image %>
+  </p>
+  <p>
+    <%= f.submit "Lisää vaihe" %>
+  </p>
+<% end %>

@@ -1,0 +1,45 @@
+<h1>Viikko-ohjelma</h1>
+
+<%= link_to 'Luo uusi harjoitus', new_article_path %>
+
+<h2>Maanantai</h2>
+<table>
+  <tr>
+    <th>Harjoitus</th>
+    <th>Aika</th>
+	<th colspan="2"></th>
+  </tr>
+ 
+  <% @articles.each do |article| %>
+    <tr>
+      <td><%= article.title %></td>
+      <td><%= article.text %></td>
+	  <td><%= link_to 'Show', article_path(article) %></td>
+      <td><%= link_to 'Edit', edit_article_path(article) %></td>
+	  <td><%= link_to 'Destroy', article_path(article),
+              method: :delete,
+              data: { confirm: 'Are you sure?' } %></td>
+    </tr>
+  <% end %>
+</table>
+
+<h2>Tiistai</h2>
+<table>
+  <tr>
+    <th>Harjoitus</th>
+    <th>Aika</th>
+	<th colspan="2"></th>
+  </tr>
+ 
+  <% @articles.each do |article| %>
+    <tr>
+      <td><%= article.title %></td>
+      <td><%= article.text %></td>
+	  <td><%= link_to 'Show', article_path(article) %></td>
+      <td><%= link_to 'Edit', edit_article_path(article) %></td>
+	  <td><%= link_to 'Destroy', article_path(article),
+              method: :delete,
+              data: { confirm: 'Are you sure?' } %></td>
+    </tr>
+  <% end %>
+</table>

@@ -1,0 +1,23 @@
+<p>
+  <h2>
+  <strong>Treenin nimi: </strong>
+  <%= @article.title %>
+  </h2>
+</p>
+ 
+<p>
+  <strong>Aika:</strong>
+  <%= @article.text %>
+</p>
+<br>
+
+<h2>Vaiheet</h2>
+<table border="1">
+<%= render @article.comments %>
+</table>
+
+<h2>Lisää vaihe:</h2>
+<%= render 'comments/form' %>
+
+<%= link_to 'Muokkaa', edit_article_path(@article) %> |
+<%= link_to 'Takaisin', articles_path %>

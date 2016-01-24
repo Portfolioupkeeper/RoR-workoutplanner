@@ -1,0 +1,42 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+    background-color: lightgrey;
+	a:link    {color:blue; background-color:transparent; text-decoration:none}
+	a:visited {color:blue; background-color:transparent; text-decoration:none}
+	a:hover   {color:red; background-color:transparent; text-decoration:underline}
+	a:active  {color:darkred; background-color:transparent; text-decoration:underline}
+}
+
+h1 {
+    color: black;
+	font-family: verdana;
+}
+h2 {
+    color: black;
+	font-family: verdana;
+}
+h3 {
+    color: black;
+	font-family: verdana;
+}
+h4 {
+    color: black;
+	font-family: verdana;
+}
+
+p {
+    color:black;
+	font-family: arial;	
+}
+
+td {
+	width:150px;
+	height:42px;
+}
+
+th {
+	width:150px;
+	height:42px;
+}

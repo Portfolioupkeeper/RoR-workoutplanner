@@ -1,0 +1,20 @@
+<p>
+  <tr>
+	<td>
+	  <%= comment.vaihe %>
+	</td>
+	<td><%= link_to 'Muokkaa', edit_article_comment_path(@article ,comment) %></td>
+	<td>
+	  <%= link_to 'Poista', [comment.article, comment],
+				method: :delete,
+				data: { confirm: 'Oletko varma?' } %>
+	</td>
+	</tr>
+	<% if comment.image.url != "/images/original/missing.png" %>
+	<tr>
+	<td colspan="3">
+	<%= link_to image_tag(comment.image.url), comment.image.url %>
+	</td>
+	</tr>
+	<% end %>
+</p>

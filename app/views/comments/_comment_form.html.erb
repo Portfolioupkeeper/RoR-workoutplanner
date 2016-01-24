@@ -1,0 +1,12 @@
+<%= form_for ([@article, @comment]) do |f| %>
+  <p>
+    <%= f.label :vaihe %><br>
+    <%= f.text_area :vaihe %>
+  </p>
+  <p>
+	<%= f.file_field :image %>
+  </p>
+  <p>
+    <%= f.submit "Tallenna muutokset" %>
+  </p>
+<% end %>
