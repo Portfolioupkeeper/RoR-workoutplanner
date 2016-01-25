@@ -1,28 +1,14 @@
-== README
+This projct was done in a group of three people. The aim of the project was to create
+a program that was operable by web-browser. More specifically a workout planner that
+allows the user to plan out a workout routine. The language used was Ruby and the
+programming frame used was Rails.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Installation instructions:
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+1. Clone project.
+2. Create a file called blog and place it in the root of C.
+3. Copy the content from the clone and place it in the blog file.
+4. Use the command line as an administrator to navigate to C:\blog\bin.
+5. Install GEM bundle using command "bundle install".
+6. Then fire up the server using command "rails server".
+7. Open a web-browser and write "localhost:3000" as the address.
