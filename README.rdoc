@@ -1,7 +1,20 @@
 This projct was done in a group of three people. The aim of the project was to create
 a program that was operable by web-browser. More specifically a workout planner that
-allows the user to plan out a workout routine. The language used was Ruby and the
-programming frame used was Rails.
+allows the user to plan out a workout routine. Operating system used was Windows. 
+The language used was Ruby and the programming frame used was Rails.
+
+Programs used:
+
+1. Ruby 2.1.5
+2. Rails 4.1
+3. Bundler
+4. Git
+5. Sqlite
+6. TinyTDS
+7. SQL Server Support
+8.DevKit
+
+Url to installer: http://railsinstaller.org/en 
 
 Installation instructions:
 
