@@ -12,16 +12,20 @@ Programs used:
 5. Sqlite
 6. TinyTDS
 7. SQL Server Support
-8.DevKit
+8. DevKit
 
 Url to installer: http://railsinstaller.org/en 
 
 Installation instructions:
 
-1. Clone project.
-2. Create a file called blog and place it in the root of C.
-3. Copy the content from the clone and place it in the blog file.
-4. Use the command line as an administrator to navigate to C:\blog\bin.
+1. Install the programs in the "programs used" list.
+2. Clone project.
+3. Place the cloned project in a place you prefer.
+4. Use the command line as an administrator to navigate to the project's bin file.
 5. Install GEM bundle using command "bundle install".
 6. Then fire up the server using command "rails server".
 7. Open a web-browser and write "localhost:3000" as the address.
+8. The program will require user and password information when first logging in to make changes!
+   use these: 
+              user: dhh
+              password: secret
