@@ -22,10 +22,11 @@ Installation instructions:
 2. Clone project.
 3. Place the cloned project in a place you prefer.
 4. Use the command line as an administrator to navigate to the project's bin file.
-5. Install GEM bundle using command "bundle install".
-6. Then fire up the server using command "rails server".
-7. Open a web-browser and write "localhost:3000" as the address.
-8. The program will require user and password information when first logging in to make changes!
+5. Install Rails using command "gem install rails".
+6. Install GEM bundle using command "bundle install".
+7. Then fire up the server using command "rails server".
+8. Open a web-browser and write "localhost:3000" as the address.
+9. The program will require user and password information when first logging in to make changes!
    use these: 
               user: dhh
               password: secret
