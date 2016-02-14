@@ -14,7 +14,8 @@ Programs used:
 7. SQL Server Support
 8. DevKit
 
-Url to installer: http://railsinstaller.org/en 
+Url to installer: http://railsinstaller.org/en
+
 Remember to set the path to environmental variables. You can do it when the installer creates a Rails Installer file,
 nevigate to "RailsInstaller\Ruby2.1.5\setup_environment".
 
